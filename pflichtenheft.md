@@ -1,19 +1,19 @@
 ---
-title: 
+title:
    main: Software Engineering
-   sub1: Praktikum Gruppe <??>
+   sub1: Praktikum Gruppe B
    sub2: Pflichtenheft
 rtext:
    main: Bachelor-Studiengang Informatik
    sub1: WS 2014 / 2015
    sub2:
 author:
-   name1: <Name1, Vorname1, Matrikelnr. 1>
-   name2: <Name2, Vorname2, Matrikelnr. 2>
-   name3: <Name3, Vorname3, Matrikelnr. 3>
+   name1: Cristea, Liviu, Matrikelnr. 1
+   name2: Hensel, Simon, Matrikelnr. 2
+   name3: Wewering, Lukas, Matrikelnr. 3
 revision:
-   level: <Versionsnummer, ab 0> 
-   date: <Datum der Gültigkeit der Version TT.MM.JJJJ>
+   level: 0 
+   date: 26.10.2014
 lang: de
 cssextra: ph.css
 ---
