@@ -36,15 +36,30 @@ Der letzte der drei Bereiche ist der Verwaltungsbereich, dieser ist für die Bet
 -  Raumverwaltung für die Tagungen
 -  Verwaltung des Zeitplans.
 
+---
 # Produkt-Einsatz    
 
 ## Anwendungsbereiche
 
-Definieren Sie, in welchen Bereichen / wie das Produkt eingesetzt werden soll
+**Definieren Sie, in welchen Bereichen / wie das Produkt eingesetzt werden soll**
+
+Das Produkt soll an der Hochschule Niederrhein als Informationssystem für Tagungen eingesetzt werden. Das Produkt wird als Web-Applikation eingesetzt und lässt sich über den Web-Browser betrachten.
+
+Die Benutzer der Seite sollen einen Überblick über das Tagungsprogramm bekommen.
+
+Es soll auch die Verwaltung der Teinehmer einer Tagung einschlißlich der zu beachtenden Buchungen und Gebühren gewährleistet sein. 
 
 ## Zielgruppen
 
-Geben Sie die Zielgruppen an und charakterisieren Sie die unterschiedlichen Rollen, die eingenommen werden
+**Geben Sie die Zielgruppen an und charakterisieren Sie die unterschiedlichen Rollen, die eingenommen werden**
+
+Die Benutzer der Seite sind Personen im mittleren Alter sowie auch evtl. Studenten, die fortgeschrittenere Kenntnisse im Bereich der Webseitennutzung haben. Die Betreiber der Webseite an der Hochschule haben sehr fortgeschrittene Kenntnisse in der Nutzung von Online Verwaltungs-Systemen und Informationssystemen dieser Art.
+
+Es werden verschiedene Rollen für die Applikation Vorgesehen:
+
+> - **Besucher:** Kann sich im Info-Bereich die angebotenen Tagungsprogramme ansehen und auch unverbindlich sich ein eigenes Tagungsprogramm zusammenstellen.
+> - **Registrierter Benutzer:** Hat die gleichen möglichkeiten wie der Besucher, mit dem Zusatz das er spezielle Hinweise sehen kann und auch Leistungen buchen kann.
+> - **Verwaltungsbereich:** Möglichkeit das Tagungsprogramm und alles was damit zusammenhängt zu bearbeiten/ändern, Registrierungen von Tagungsteilnehmern zu bestätigen und zu verwalten sowie Buchungen, Zahlungen und Forderungen zu verwalten.
 
 ## Betriebsbedingungen
 
