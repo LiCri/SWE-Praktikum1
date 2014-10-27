@@ -10,7 +10,7 @@ rtext:
 author:
    name1: Cristea, Liviu, 879401
    name2: Hensel, Simon, Matrikelnr. 2
-   name3: Wewering, Lukas, Matrikelnr. 3
+   name3: Wewering, Lukas, 880680
 revision:
    level: 0 
    date: 26.10.2014
