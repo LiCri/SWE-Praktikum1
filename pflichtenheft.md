@@ -20,7 +20,15 @@ cssextra: ph.css
 
 # Zielbestimmung
 
-Die zu entwickelnde Applikation soll als Web-Applikation entwickelt werden, es handelt sich um ein Informationssystem für Tagungen. Es gibt drei Hauptbereiche die berücksichtigt werden müssen.Der erste Bereich ist der Info-Bereich, der Besuchern der Webseite sowie auch den Teilnehmern bzw. den registrierten Benutzern des Systems zur verfügung stehen sollen. Der Info-Bereich muss beinhalten, eine Übersicht über das gesamte Tagungsangebot, es muss auch gewährleistet sein das die Benutzer der Applikation sich individuelle Tagungsprogramme erstellen können. Als letzten Punkt ist für den Info-Bereich noch eine Seite mit aktuellen Hinweisen zu erstellen, damit die Benutzer der Seite sehen wann sich Termine ändern usw.. Der zweite Bereich ist der Registrierungsbereich für die Teilnehmer, dieser soll beinhalten das sich die Teilnehmer eine Übersicht über die Leistungen die Angeboten verschaffen können und diese auch buchen können. Desweiteren ist es auch wichtig das sie spezielle Hinweise zu den angebotenen Leistungen sehen können, diese sind z.B. Änderung der Daues der Tagung usw.. Der letzte der drei Bereiche ist der Verwaltungsbereich, dieser ist für die Betreiber der Seite vorgesehen. Dieser muss zwingend Zugangsberechtigungen beinhalten, es muss ebenfalls möglich sein das Anmeldungen/Registrierungen bestätigt und verwaltet werden. Dieser Bereich ist ebenfalls zuständig für die Verwaltung von Buchungen, also Zahlungen von Teilnehmern und Forderungen der Betreiber an die Teilnehmer. Ebenfalls sehr wichtig ist es das dass Tagungsprogramm verwaltet werden kann, dazu gehören:
+Es soll ein Informationssystem für Tagungen entwickelt werden.
+
+Es gibt drei Hauptbereiche die berücksichtigt werden müssen.
+
+Der erste Bereich ist der Info-Bereich, der Besuchern der Webseite sowie auch den Teilnehmern bzw. den registrierten Benutzern des Systems zur verfügung stehen sollen. Der Info-Bereich muss beinhalten, eine Übersicht über das gesamte Tagungsangebot, es muss auch gewährleistet sein das die Benutzer der Applikation sich individuelle Tagungsprogramme erstellen können. Als letzten Punkt ist für den Info-Bereich noch eine Seite mit aktuellen Hinweisen zu erstellen, damit die Benutzer der Seite sehen wann sich Termine ändern usw.. 
+
+Der zweite Bereich ist der Registrierungsbereich für die Teilnehmer, dieser soll beinhalten das sich die Teilnehmer eine Übersicht über die Leistungen die Angeboten verschaffen können und diese auch buchen können. Desweiteren ist es auch wichtig das sie spezielle Hinweise zu den angebotenen Leistungen sehen können, diese sind z.B. Änderung der Daues der Tagung usw.. 
+
+Der letzte der drei Bereiche ist der Verwaltungsbereich, dieser ist für die Betreiber der Seite vorgesehen. Dieser muss zwingend Zugangsberechtigungen beinhalten, es muss ebenfalls möglich sein das Anmeldungen/Registrierungen bestätigt und verwaltet werden. Dieser Bereich ist ebenfalls zuständig für die Verwaltung von Buchungen, also Zahlungen von Teilnehmern und Forderungen der Betreiber an die Teilnehmer. Ebenfalls sehr wichtig ist es das dass Tagungsprogramm verwaltet werden kann, dazu gehören:
 
 -  Tagungseinheiten(Sessions, Workshops) verwalten
 -  Beiträge zu den Tagungen verwalten
