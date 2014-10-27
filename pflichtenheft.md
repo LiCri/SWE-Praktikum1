@@ -8,7 +8,7 @@ rtext:
    sub1: WS 2014 / 2015
    sub2:
 author:
-   name1: Cristea, Liviu, Matrikelnr. 1
+   name1: Cristea, Liviu, 879401
    name2: Hensel, Simon, Matrikelnr. 2
    name3: Wewering, Lukas, Matrikelnr. 3
 revision:
