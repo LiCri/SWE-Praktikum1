@@ -1,0 +1,46 @@
+\title{Aufwandsschätzung mit der Function-Point-Methode}
+
+\maketitle
+
+#Elementarprozessee
+
+##Eingabe
+* Online-Anmeldung *(Login + Registrierung)*
+* Leistung buchen
+* Teilnahme bestätigen
+* Tagung verwalten
+* *(Erstellung eines individuellen Tagungsprogramms (zu abstrakt!))*
+
+##Ausgabe
+* Aktuelle Hinweise
+* spezielle Hinweise
+* Übersicht gebuchter Leistungen
+* Übersicht Teilnehmer einer Tagung
+* Übersicht Zahlungen
+* *(Leistungsübersicht)*
+
+##Abfrage
+* Übersicht Tagungen
+
+##Datenbestände
+* Tagungen
+* Teilnehmer
+* Buchungen
+* Zahlungen
+
+##Referenzdaten
+* Hochschulmitarbeiter
+
+#Function Points
+|Elementarprozess|Komplexität|Anzahl|Function Points|
+|-|-|-|-|
+|Eingabe|6|4|24|
+|Ausgabe|7|5|35|
+|Abfrage|6|1|6|
+|Datenbestände|15|4|60|
+|Referenzdaten|10|1|10|
+||||**135**|
+
+#Aufwandsschätzung
+##Zeit
+##Personal
