@@ -1,0 +1,17 @@
+* {
+	font-family: 'Open Sans';
+}
+
+
+td {
+	padding: 5px;
+	vertical-align: top;
+}
+
+tr.header {
+	background-color: #ccc;
+}
+
+td {
+	border-bottom: 1px dotted #ccc;
+}
