@@ -41,7 +41,7 @@ Der letzte der drei Bereiche ist der Verwaltungsbereich, dieser ist für die Bet
 
 ## Anwendungsbereiche
 
-**Definieren Sie, in welchen Bereichen / wie das Produkt eingesetzt werden soll**
+> **Definieren Sie, in welchen Bereichen / wie das Produkt eingesetzt werden soll**
 
 Das Produkt soll an der Hochschule Niederrhein als Informationssystem für Tagungen eingesetzt werden. Das Produkt wird als Web-Applikation eingesetzt und lässt sich über den Web-Browser betrachten.
 
@@ -51,7 +51,7 @@ Es soll auch die Verwaltung der Teinehmer einer Tagung einschlißlich der zu bea
 
 ## Zielgruppen
 
-**Geben Sie die Zielgruppen an und charakterisieren Sie die unterschiedlichen Rollen, die eingenommen werden**
+> **Geben Sie die Zielgruppen an und charakterisieren Sie die unterschiedlichen Rollen, die eingenommen werden**
 
 Die Benutzer der Seite sind Personen im mittleren Alter sowie auch evtl. Studenten, die fortgeschrittenere Kenntnisse im Bereich der Webseitennutzung haben. Die Betreiber der Webseite an der Hochschule haben sehr fortgeschrittene Kenntnisse in der Nutzung von Online Verwaltungs-Systemen und Informationssystemen dieser Art.
 
@@ -63,25 +63,35 @@ Es werden verschiedene Rollen für die Applikation Vorgesehen:
 
 ## Betriebsbedingungen
 
-**Geben Sie außergewöhnliche Betriebsbedingungen an (z.B. Besonderheiten in einem industriellen Umfeld)**
+> **Geben Sie außergewöhnliche Betriebsbedingungen an (z.B. Besonderheiten in einem industriellen Umfeld)**
 
 In normalem Betrieb ist nicht mit außergewöhnlichen Betriebsbedingungen zu rechnen. Dies ändert sich in den Phasen wo sehr viele Tagungen angeboten werden da die Nachfrage sehr groß ist, dies kann dazu führen das der Server überlastet wird, daher ist vorrauszusetzten das der Server sowie auch die Software eine große Anzahl an Anfragen verarbeiten kann.
 
 # Produkt-Umgebung
 
-Charakterisieren Sie wesentliche Aspekte der dv-technischen Umgebung des Produkts; gehen Sie dabei insbesondere die (fachlichen / dv-technischen) Schnittstellen zu anderen Produkten an
+> **Charakterisieren Sie wesentliche Aspekte der dv-technischen Umgebung des Produkts; gehen Sie dabei insbesondere die (fachlichen / dv-technischen) Schnittstellen zu anderen Produkten an**
+
+Die Software wird als Web-Applikation eingesetzt. Dies erfordert einen Web-Server zum Bereitstellen der Seite, dies geschieht über http oder https.   
+Es werden desweiteren Web-Clients(Web-Browser) zum Aufrufen der Seite benötigt, diese sind auf allen PC's bereitzustellen.   
+Es muss auch eine Schnittstelle zu den Bankservern sowie diversen anderen Bezahldiensten implementiert und bereitgestellt werden.
 
 ## Software
 
-Geben Sie hier beispielsweise an, welche Software zum Betrieb der Anwendung zwingend erforderlich ist Gehen Sie auf Besonderheiten ein, die über allgemein übliche Anforderungen hinausgehen.
+> **Geben Sie hier beispielsweise an, welche Software zum Betrieb der Anwendung zwingend erforderlich ist Gehen Sie auf Besonderheiten ein, die über allgemein übliche Anforderungen hinausgehen.**
+
+Als Software zwingend notwendig ist ein Web-Client(Web-Browser), da ohne einen Web-Client es nicht möglich ist die Webseite zu erreichen.   
+Es wird auch ein Datenabanksystem benötigt(eingesetzt) um das Tagungsprogramm, die Tagungsteilnehmer und die Buchungen zu Speichern und auch über Abfragen schneller an die Daten zu kommen. Das Datenbanksystem muss auch eine schnittstelle zur Web-Applikation haben damit Datensätze eingefügt, ausgewertet und abgefragt werden können.  
 
 ## Hardware
 
-Geben Sie hier beispielsweise an, welche Hardware zum Betrieb der Anwendung zwingend erforderlich ist. Gehen Sie auf Besonderheiten ein, die über allgemein übliche Anforderungen hinausgehen.
+> **Geben Sie hier beispielsweise an, welche Hardware zum Betrieb der Anwendung zwingend erforderlich ist. Gehen Sie auf Besonderheiten ein, die über allgemein übliche Anforderungen hinausgehen.**
+
+Es wird mindestens ein PC benötigt für den Besucher der Seite, sowie mindestens einer für die Betreiber der Seite.   
+Zwingend erforderlich ist ein Web-Server der Konfiguriert werden muss damit die Seite über eine Festgelegte URL erreichbar ist.
 
 # Funktionale Produkt-Anforderungen
 
-Definieren Sie die Anforderungen die Funktionalität des Produkts.
+> **Definieren Sie die Anforderungen die Funktionalität des Produkts.**
 
 ## Anwendungsfälle
 
