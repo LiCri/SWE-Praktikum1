@@ -11,3 +11,7 @@
 
 **Den Rest besprechen wir wenn die Aufwandsschätzung abgeschlossen ist**
 
+#Fragen an den Beims
+
+> Wie Kommt man auf Gesammtkosten für das Projekt?
+
