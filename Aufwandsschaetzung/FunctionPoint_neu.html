@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<h1 id="elementarprozessee">Elementarprozessee</h1>
+<p><em>E</em> = Eingabefelder<br /><em>DB</em> = betroffene Datenbestände</p>
+<h2 id="eingabe">Eingabe</h2>
+<ul>
+<li>Online-Anmeldung <em>(E: E-Mail, Passwort, Registrieren, DB: Teilnehmer, Hochschulmitarbeiter)</em></li>
+<li>Leistung buchen <em>(E: Vorname, Nachname, Straße, Ort, Kontoinhaber, Kontonummer, BLZ, Speichern, DB: Teilnehmer, Tagungen, Tagungseinheiten, Buchungen, Zahlungen)</em></li>
+<li>Teilnahme bestätigen <em>(E: Bestätigen, DB: Teilnehmer, Tagungen, Tagungseinheiten, Buchungen)</em></li>
+<li>Tagung erstellen <em>(E: Name, Zeit, Beschreibung, Tagungseinheit(en), Speichern, DB: Tagungen, Tagungseinheit(en))</em></li>
+<li>Tagung ändern <em>(E: Name, Zeit, Beschreibung, Tagungseinheit(en), Speichern, DB: Tagungen, Tagungseinheit(en))</em></li>
+<li>Tagung löschen <em>(DB: Tagungen)</em></li>
+<li>Tagungseinheit erstellen <em>(E: Name, Typ, Beiträge, Redner, Raum, Zeitplan, Gebühr, Speichern, DB: Tagungseinheit)</em></li>
+<li>Tagungseinheit ändern <em>(E: Name, Typ, Beiträge, Redner, Raum, Zeitplan, Gebühr, Speichern, DB: Tagungseinheit)</em></li>
+<li>Tagungseinheit löschen <em>(DB: Tagungseinheit)</em></li>
+<li>Tagungstyp erstellen: <em>(E: Name, DB: Tagungstypen)</em></li>
+<li>Tagungstyp ändern: <em>(E: Name, DB: Tagungstypen)</em></li>
+<li>Tagungstyp löschen: <em>(DB: Tagungstypen)</em></li>
+<li>Hinweise verwalten <em>(E: Nachricht, Speichern, DB: Hinweise)</em></li>
+<li>Verwaltung der Zugangsberechtigungen <em>(E: Rolle, DB: Hochschulmitarbeiter)</em></li>
+</ul>
+<h2 id="ausgabe">Ausgabe</h2>
+<ul>
+<li>Aktuelle Hinweise <em>(DB: Hinweise)</em></li>
+<li>spezielle Hinweise <em>(DB: Hinweise)</em></li>
+<li>Übersicht gebuchter Leistungen <em>(DB: Teilnehmer, Tagungseinheiten)</em></li>
+<li>Übersicht Tagungsteilnehmer <em>(DB: Teilnehmer, Tagung, Tagungseinheiten, Buchungen)</em></li>
+<li>Übersicht Zahlungen <em>(DB: Teilnehmer, Tagung, Tagungseinheiten, Buchungen, Zahlungen)</em></li>
+<li>Registrierungsbestätigung <em>(DB: Teilnehmer, Tagung)</em></li>
+<li>Rechnungsbestätigung <em>(DB: Teilnehmer, Rechnungen)</em></li>
+</ul>
+<h2 id="abfrage">Abfrage</h2>
+<ul>
+<li>Übersicht Tagungen <em>(DB: Tagungen)</em></li>
+</ul>
+<h2 id="datenbestände">Datenbestände</h2>
+<ul>
+<li>Tagungen <em>(Name, Zeit, Beschreibung, Tagungseinheit(en))</em></li>
+<li>Tagungseinheiten <em>(Name, Typ, Beiträge, Redner, Raum, Zeitplan, Gebühr)</em></li>
+<li>Tagungstypen <em>(Name)</em></li>
+<li>Anmeldungen <em>(E-Mail, Passwort)</em></li>
+<li>Buchungen <em>(Tagungseinheit, Teilnehmer)</em></li>
+<li>Zahlungen <em>(Vorname, Nachname, Straße, Ort, Kontoinhaber, Kontonummer, BLZ)</em></li>
+<li>Hinweise <em>(Nachricht)</em></li>
+</ul>
+<h2 id="referenzdaten">Referenzdaten</h2>
+<ul>
+<li>Hochschulmitarbeiter <em>(Name)</em></li>
+</ul>
+<h1 id="function-points">Function Points</h1>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Elementarprozess</th>
+<th align="left">Anzahl</th>
+<th align="left">Komplexität</th>
+<th align="left">FP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Eingaben</td>
+<td align="left">14</td>
+<td align="left">6</td>
+<td align="left">84</td>
+</tr>
+<tr class="even">
+<td align="left">Ausgaben</td>
+<td align="left">7</td>
+<td align="left">5</td>
+<td align="left">35</td>
+</tr>
+<tr class="odd">
+<td align="left">Abfragen</td>
+<td align="left">1</td>
+<td align="left">4</td>
+<td align="left">4</td>
+</tr>
+<tr class="even">
+<td align="left">Datenbestände</td>
+<td align="left">7</td>
+<td align="left">10</td>
+<td align="left">70</td>
+</tr>
+<tr class="odd">
+<td align="left">Referenzdaten</td>
+<td align="left">1</td>
+<td align="left">7</td>
+<td align="left">7</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>SUMME</strong></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"><strong>200</strong></td>
+</tr>
+</tbody>
+</table>
+<h1 id="aufwandsschätzung">Aufwandsschätzung</h1>
+<h2 id="zeit">Zeit</h2>
+<p>Nach IBM-Maßstab errechnet sich für 200 Function Points ein Aufwand von <em>14</em> Mannmonaten.</p>
+<h2 id="personal">Personal</h2>
+<h1 id="offene-fragen">Offene Fragen</h1>
+<ul>
+<li>Wie ist das individualisierte Tagungsprogramm definiert?</li>
+<li>Was sind &quot;spezielle Hinweise&quot;?</li>
+<li>Wann werden welche Benachrichtigungen verschickt?</li>
+</ul>
+</body>
+</html>
