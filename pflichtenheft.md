@@ -63,7 +63,9 @@ Es werden verschiedene Rollen für die Applikation Vorgesehen:
 
 ## Betriebsbedingungen
 
-Geben Sie außergewöhnliche Betriebsbedingungen an (z.B. Besonderheiten in einem industriellen Umfeld)
+**Geben Sie außergewöhnliche Betriebsbedingungen an (z.B. Besonderheiten in einem industriellen Umfeld)**
+
+In normalem Betrieb ist nicht mit außergewöhnlichen Betriebsbedingungen zu rechnen. Dies ändert sich in den Phasen wo sehr viele Tagungen angeboten werden da die Nachfrage sehr groß ist, dies kann dazu führen das der Server überlastet wird, daher ist vorrauszusetzten das der Server sowie auch die Software eine große Anzahl an Anfragen verarbeiten kann.
 
 # Produkt-Umgebung
 
