@@ -9,11 +9,16 @@
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <nav id="TOC">
 <ul>
-<li><a href="#zielbestimmung"><span class="toc-section-number">1</span> Zielbestimmung</a></li>
+<li><a href="#zielbestimmung"><span class="toc-section-number">1</span> Zielbestimmung</a><ul>
+<li><a href="#informationen"><span class="toc-section-number">1.1</span> Informationen</a></li>
+<li><a href="#registrierung"><span class="toc-section-number">1.2</span> Registrierung</a></li>
+<li><a href="#verwaltung"><span class="toc-section-number">1.3</span> Verwaltung</a></li>
+</ul></li>
 <li><a href="#produkt-einsatz"><span class="toc-section-number">2</span> Produkt-Einsatz</a><ul>
 <li><a href="#anwendungsbereiche"><span class="toc-section-number">2.1</span> Anwendungsbereiche</a></li>
 <li><a href="#zielgruppen"><span class="toc-section-number">2.2</span> Zielgruppen</a></li>
@@ -30,22 +35,46 @@
 <li><a href="#sonstige-anforderungen"><span class="toc-section-number">4.4</span> Sonstige Anforderungen</a></li>
 </ul></li>
 <li><a href="#nichtfunktionale-produktanforderungen"><span class="toc-section-number">5</span> Nichtfunktionale Produktanforderungen</a><ul>
-<li><a href="#architektur"><span class="toc-section-number">5.1</span> Architektur</a></li>
-<li><a href="#leistungsanforderungen"><span class="toc-section-number">5.2</span> Leistungsanforderungen</a></li>
+<li><a href="#architektur"><span class="toc-section-number">5.1</span> Architektur</a><ul>
+<li><a href="#präsentationsschicht"><span class="toc-section-number">5.1.1</span> Präsentationsschicht</a></li>
+<li><a href="#logikschicht"><span class="toc-section-number">5.1.2</span> Logikschicht</a></li>
+<li><a href="#datenschicht"><span class="toc-section-number">5.1.3</span> Datenschicht</a></li>
+</ul></li>
+<li><a href="#leistungsanforderungen"><span class="toc-section-number">5.2</span> Leistungsanforderungen</a><ul>
+<li><a href="#speicherbedarf"><span class="toc-section-number">5.2.1</span> Speicherbedarf</a></li>
+<li><a href="#reaktionszeiten"><span class="toc-section-number">5.2.2</span> Reaktionszeiten</a></li>
+</ul></li>
 <li><a href="#benutzbarkeit"><span class="toc-section-number">5.3</span> Benutzbarkeit</a></li>
 <li><a href="#zuverlässigkeit"><span class="toc-section-number">5.4</span> Zuverlässigkeit</a></li>
 <li><a href="#testbarkeit"><span class="toc-section-number">5.5</span> Testbarkeit</a></li>
 <li><a href="#entwicklungs-umgebung"><span class="toc-section-number">5.6</span> Entwicklungs-Umgebung</a></li>
 </ul></li>
-<li><a href="#glossar-oder-begriffslexikon-als-anhang"><span class="toc-section-number">6</span> Glossar oder Begriffslexikon als Anhang</a></li>
+<li><a href="#glossar-oder-begriffslexikon-als-anhang"><span class="toc-section-number">6</span> Glossar oder Begriffslexikon als Anhang</a><ul>
+<li><a href="#php"><span class="toc-section-number">6.1</span> PHP</a></li>
+<li><a href="#phpunit"><span class="toc-section-number">6.2</span> PHPUnit</a></li>
+<li><a href="#mysql"><span class="toc-section-number">6.3</span> MySQL</a></li>
+<li><a href="#jquery"><span class="toc-section-number">6.4</span> jQuery</a></li>
+<li><a href="#sublime-text-3"><span class="toc-section-number">6.5</span> Sublime Text 3</a></li>
+<li><a href="#phpstorm"><span class="toc-section-number">6.6</span> PHPStorm</a></li>
+<li><a href="#apache-webserver"><span class="toc-section-number">6.7</span> Apache Webserver</a></li>
+</ul></li>
 </ul>
 </nav>
-<h1 id="zielbestimmung"><span class="header-section-number">1</span> Zielbestimmung</h1>
+<h1 id="zielbestimmung"><a href="#zielbestimmung"><span class="header-section-number">1</span> Zielbestimmung</a></h1>
 <p>Es soll ein Informationssystem für Tagungen entwickelt werden.</p>
-<p>Es gibt drei Hauptbereiche die berücksichtigt werden müssen.</p>
-<p>Der erste Bereich ist der Info-Bereich, der den Besuchern der Webseite sowie auch den Teilnehmern bzw. den registrierten Benutzern des Systems zur verfügung stehen soll. Der Info-Bereich muss beinhalten, eine Übersicht über das gesamte Tagungsangebot, es muss auch gewährleistet sein das die Benutzer der Applikation sich individuelle Tagungsprogramme erstellen können. Als letzten Punkt ist für den Info-Bereich noch eine Seite mit aktuellen Hinweisen zu erstellen, damit die Benutzer der Seite sehen wann sich Termine ändern usw..</p>
-<p>Der zweite Bereich ist der Registrierungsbereich für die Teilnehmer, dieser soll beinhalten das sich die Teilnehmer eine Übersicht über die Leistungen die Angeboten werden verschaffen können und diese auch buchen können. Desweiteren ist es auch wichtig das sie spezielle Hinweise zu den angebotenen Leistungen sehen können, diese sind z.B. Änderung der Daues der Tagung usw..</p>
-<p>Der letzte der drei Bereiche ist der Verwaltungsbereich, dieser ist für die Betreiber der Seite vorgesehen. Dieser muss zwingend Zugangsberechtigungen beinhalten, es muss ebenfalls möglich sein das Anmeldungen/Registrierungen bestätigt und verwaltet werden. Dieser Bereich ist ebenfalls zuständig für die Verwaltung von Buchungen, also Zahlungen von Teilnehmern und Forderungen der Betreiber an die Teilnehmer. Ebenfalls sehr wichtig ist es das dass Tagungsprogramm verwaltet werden kann, dazu gehören:</p>
+<p>Dabei müssen drei Hauptbereichte berücksichtigt werden:</p>
+<h2 id="informationen"><a href="#informationen"><span class="header-section-number">1.1</span> Informationen</a></h2>
+<p>Der erste Bereich ist der Info-Bereich, der den Besuchern der Webseite sowie auch den Teilnehmern bzw. den registrierten Benutzern des Systems zur Verfügung stehen soll. Der Info-Bereich muss beinhalten:</p>
+<ul>
+<li>eine Übersicht über das gesamte Tagungsangebot</li>
+<li>die Erstellung individueller Tagungsprogramme</li>
+<li>eine Seite mit aktuellen Hinweisen, beispielsweise Terminänderungen etc.</li>
+</ul>
+<h2 id="registrierung"><a href="#registrierung"><span class="header-section-number">1.2</span> Registrierung</a></h2>
+<p>Der zweite Bereich ist der Registrierungsbereich für die Teilnehmer. Dieser soll es ermöglichen, dass sich die Teilnehmer eine Übersicht über die angebotenen Leistungen verschaffen und diese auch buchen können. Desweiteren ist es auch wichtig, dass sie spezielle Hinweise zu den angebotenen Leistungen sehen können, diese sind z.B. Änderung der Dauer der Tagung usw.</p>
+<h2 id="verwaltung"><a href="#verwaltung"><span class="header-section-number">1.3</span> Verwaltung</a></h2>
+<p>Der letzte der drei Bereiche ist der Verwaltungsbereich. Dieser ist für die Betreiber der Seite vorgesehen. Dafür muss zwingend eine Zugangsberechtigungen bestehen, ebenfalls muss es möglich sein, dass Anmeldungen/Registrierungen bestätigt und verwaltet werden. Der Bereich ist ebenfalls zuständig für die Verwaltung von Buchungen und Zahlungen.</p>
+<p>Zuletzt muss das Erstellen und Ändern des Tagesprogramms selber bewerkstelligt werden können. Dabei sind folgende Möglichkeiten zu implementieren:</p>
 <ul>
 <li>Tagungseinheiten(Sessions, Workshops) verwalten</li>
 <li>Beiträge zu den Tagungen verwalten</li>
@@ -53,74 +82,146 @@
 <li>Raumverwaltung für die Tagungen</li>
 <li>Verwaltung des Zeitplans.</li>
 </ul>
-<hr />
-<h1 id="produkt-einsatz"><span class="header-section-number">2</span> Produkt-Einsatz</h1>
-<h2 id="anwendungsbereiche"><span class="header-section-number">2.1</span> Anwendungsbereiche</h2>
-<blockquote>
-<p><strong>Definieren Sie, in welchen Bereichen / wie das Produkt eingesetzt werden soll</strong></p>
-</blockquote>
-<p>Das Produkt soll an der Hochschule Niederrhein als Informationssystem für Tagungen eingesetzt werden. Das Produkt wird als Web-Applikation eingesetzt und lässt sich über den Web-Browser betrachten.</p>
+<h1 id="produkt-einsatz"><a href="#produkt-einsatz"><span class="header-section-number">2</span> Produkt-Einsatz</a></h1>
+<h2 id="anwendungsbereiche"><a href="#anwendungsbereiche"><span class="header-section-number">2.1</span> Anwendungsbereiche</a></h2>
+<p>Das Produkt soll an der Hochschule Niederrhein als Informationssystem für Tagungen eingesetzt werden. Das Produkt wird als Web-Applikation genutzt und lässt sich über den Web-Browser betrachten.</p>
 <p>Die Benutzer der Seite sollen einen Überblick über das Tagungsprogramm bekommen.</p>
-<p>Es soll auch die Verwaltung der Teinehmer einer Tagung einschlißlich der zu beachtenden Buchungen und Gebühren gewährleistet sein.</p>
-<h2 id="zielgruppen"><span class="header-section-number">2.2</span> Zielgruppen</h2>
-<blockquote>
-<p><strong>Geben Sie die Zielgruppen an und charakterisieren Sie die unterschiedlichen Rollen, die eingenommen werden</strong></p>
-</blockquote>
-<p>Die Benutzer der Seite sind Personen im mittleren Alter sowie auch evtl. Studenten, die fortgeschrittenere Kenntnisse im Bereich der Webseitennutzung haben. Die Betreiber der Webseite an der Hochschule haben sehr fortgeschrittene Kenntnisse in der Nutzung von Online Verwaltungs-Systemen und Informationssystemen dieser Art.</p>
+<p>Es soll auch die Verwaltung der Teinehmer einer Tagung einschließlich der zu beachtenden Buchungen und Gebühren gewährleistet sein.</p>
+<h2 id="zielgruppen"><a href="#zielgruppen"><span class="header-section-number">2.2</span> Zielgruppen</a></h2>
+<p>Die Benutzer der Seite sind Personen im mittleren Alter sowie auch evtl. Studenten, die fortgeschrittenere Kenntnisse im Bereich der Webseitennutzung haben. Die Betreiber der Webseite an der Hochschule haben sehr fortgeschrittene Kenntnisse in der Nutzung von Online-Verwaltungs-Systemen und Informationssystemen dieser Art.</p>
 <p>Es werden verschiedene Rollen für die Applikation Vorgesehen:</p>
 <blockquote>
 <ul>
-<li><strong>Besucher:</strong> Kann sich im Info-Bereich die angebotenen Tagungsprogramme ansehen und auch unverbindlich sich ein eigenes Tagungsprogramm zusammenstellen.</li>
-<li><strong>Registrierter Benutzer:</strong> Hat die gleichen möglichkeiten wie der Besucher, mit dem Zusatz das er spezielle Hinweise sehen kann und auch Leistungen buchen kann.</li>
-<li><strong>Verwaltungsbereich:</strong> Möglichkeit das Tagungsprogramm und alles was damit zusammenhängt zu bearbeiten/ändern, Registrierungen von Tagungsteilnehmern zu bestätigen und zu verwalten sowie Buchungen, Zahlungen und Forderungen zu verwalten.</li>
+<li><strong>Besucher:</strong> Kann sich im Info-Bereich die angebotenen Tagungsprogramme ansehen und sich auch unverbindlich ein eigenes Tagungsprogramm zusammenstellen.</li>
+<li><strong>Registrierter Benutzer:</strong> Hat die gleichen Möglichkeiten wie der Besucher, mit dem Zusatz dass er spezielle Hinweise sehen und Leistungen buchen kann.</li>
+<li><strong>Verwaltungsbereich:</strong> Möglichkeit, das Tagungsprogramm und alles, was damit zusammenhängt, zu bearbeiten, Registrierungen von Tagungsteilnehmern zu bestätigen und zu verwalten sowie Buchungen, Zahlungen und Forderungen zu verwalten.</li>
 </ul>
 </blockquote>
-<h2 id="betriebsbedingungen"><span class="header-section-number">2.3</span> Betriebsbedingungen</h2>
-<blockquote>
-<p><strong>Geben Sie außergewöhnliche Betriebsbedingungen an (z.B. Besonderheiten in einem industriellen Umfeld)</strong></p>
-</blockquote>
-<p>In normalem Betrieb ist nicht mit außergewöhnlichen Betriebsbedingungen zu rechnen. Dies ändert sich in den Phasen wo sehr viele Tagungen angeboten werden da die Nachfrage sehr groß ist, dies kann dazu führen das der Server überlastet wird, daher ist vorrauszusetzten das der Server sowie auch die Software eine große Anzahl an Anfragen verarbeiten kann.</p>
-<h1 id="produkt-umgebung"><span class="header-section-number">3</span> Produkt-Umgebung</h1>
-<blockquote>
-<p><strong>Charakterisieren Sie wesentliche Aspekte der dv-technischen Umgebung des Produkts; gehen Sie dabei insbesondere die (fachlichen / dv-technischen) Schnittstellen zu anderen Produkten an</strong></p>
-</blockquote>
-<p>Die Software wird als Web-Applikation eingesetzt. Dies erfordert einen Web-Server zum Bereitstellen der Seite, dies geschieht über http oder https.<br />Es werden desweiteren Web-Clients(Web-Browser) zum Aufrufen der Seite benötigt, diese sind auf allen PC's bereitzustellen.<br />Es muss auch eine Schnittstelle zu den Bankservern sowie diversen anderen Bezahldiensten implementiert und bereitgestellt werden.</p>
-<h2 id="software"><span class="header-section-number">3.1</span> Software</h2>
-<blockquote>
-<p><strong>Geben Sie hier beispielsweise an, welche Software zum Betrieb der Anwendung zwingend erforderlich ist Gehen Sie auf Besonderheiten ein, die über allgemein übliche Anforderungen hinausgehen.</strong></p>
-</blockquote>
-<p>Als Software zwingend notwendig ist ein Web-Client(Web-Browser), da ohne einen Web-Client es nicht möglich ist die Webseite zu erreichen.<br />Es wird auch ein Datenabanksystem benötigt(eingesetzt) um das Tagungsprogramm, die Tagungsteilnehmer und die Buchungen zu Speichern und auch über Abfragen schneller an die Daten zu kommen. Das Datenbanksystem muss auch eine schnittstelle zur Web-Applikation haben damit Datensätze eingefügt, ausgewertet und abgefragt werden können.</p>
-<h2 id="hardware"><span class="header-section-number">3.2</span> Hardware</h2>
-<blockquote>
-<p><strong>Geben Sie hier beispielsweise an, welche Hardware zum Betrieb der Anwendung zwingend erforderlich ist. Gehen Sie auf Besonderheiten ein, die über allgemein übliche Anforderungen hinausgehen.</strong></p>
-</blockquote>
-<p>Es wird mindestens ein PC benötigt für den Besucher der Seite, sowie mindestens einer für die Betreiber der Seite.<br />Zwingend erforderlich ist ein Web-Server der Konfiguriert werden muss damit die Seite über eine Festgelegte URL erreichbar ist.</p>
-<h1 id="funktionale-produkt-anforderungen"><span class="header-section-number">4</span> Funktionale Produkt-Anforderungen</h1>
+<h2 id="betriebsbedingungen"><a href="#betriebsbedingungen"><span class="header-section-number">2.3</span> Betriebsbedingungen</a></h2>
+<p>In normalem Betrieb ist nicht mit außergewöhnlichen Betriebsbedingungen zu rechnen. Dies ändert sich in den Phasen, wo sehr viele Tagungen angeboten werden, da die Nachfrage sehr groß ist. Dies kann dazu führen, dass der Server überlastet wird. Daher ist vorrauszusetzten, dass der Server sowie auch die Software eine große Anzahl an Anfragen verarbeiten kann.</p>
+<h1 id="produkt-umgebung"><a href="#produkt-umgebung"><span class="header-section-number">3</span> Produkt-Umgebung</a></h1>
+<p>Die Software wird als Web-Applikation eingesetzt, welche auf einem Web-Server zur Verfügung gestellt werden muss.</p>
+<p>Weiter muss eine Schnittstelle zu den Bankservern sowie diversen anderen Bezahldiensten implementiert und bereitgestellt werden.</p>
+<h2 id="software"><a href="#software"><span class="header-section-number">3.1</span> Software</a></h2>
+<p>Als Software zwingend notwendig ist ein Web-Client (Browser).</p>
+<p>Weiterhin wird ein Datenbanksystem benötigt, um das Tagungsprogramm, die Tagungsteilnehmer und die Buchungen zu verwalten und über Abfragen schneller an die Daten zu kommen. Für das Datenbanksystem muss eine Schnittstelle zur Web-Applikation bereitgestellt werden, damit Datensätze eingefügt, abgefragt und ausgewertet werden können.</p>
+<h2 id="hardware"><a href="#hardware"><span class="header-section-number">3.2</span> Hardware</a></h2>
+<p>Der Nutzer benötigt zum Aufruf der Webseite einen PC oder alternativ ein mobiles Endgerät.</p>
+<p>Für den Betrieb der Applikation wird ein Web-Server benötigt, der entsprechend konfiguriert und über eine festgelegte URL erreichbar ist.</p>
+<h1 id="funktionale-produkt-anforderungen"><a href="#funktionale-produkt-anforderungen"><span class="header-section-number">4</span> Funktionale Produkt-Anforderungen</a></h1>
 <blockquote>
 <p><strong>Definieren Sie die Anforderungen die Funktionalität des Produkts.</strong></p>
 </blockquote>
-<h2 id="anwendungsfälle"><span class="header-section-number">4.1</span> Anwendungsfälle</h2>
+<h2 id="anwendungsfälle"><a href="#anwendungsfälle"><span class="header-section-number">4.1</span> Anwendungsfälle</a></h2>
 <p>Beschreiben Sie die Anwendungsfälle mit UML-Anwendungsfalldiagrammen und geben Sie dabei für jeden Anwendungsfall eine Beschreibung an, aus der hervorgeht, ob der Anwendungsfall zwingend erforderlich oder optional ist. Ergänzen Sie die Beschreibung der Anwendungsfälle ggf. durch die Definition von Arbeitsflüssen (Workflows) und / oder der Beschreibung dynamischer Aspekte</p>
-<h2 id="benutzerschnittstelle"><span class="header-section-number">4.2</span> Benutzerschnittstelle</h2>
+<h2 id="benutzerschnittstelle"><a href="#benutzerschnittstelle"><span class="header-section-number">4.2</span> Benutzerschnittstelle</a></h2>
 <p>Beschreiben Sie fachlichen Anforderungen an die Benutzerschnittstelle</p>
-<h2 id="datenbasis"><span class="header-section-number">4.3</span> Datenbasis</h2>
+<h2 id="datenbasis"><a href="#datenbasis"><span class="header-section-number">4.3</span> Datenbasis</a></h2>
 <p>Beschreiben Sie die fachlichen Anforderungen an die Struktur der Datenbasis. Verwenden Sie UML-Klassendiagramme.</p>
-<h2 id="sonstige-anforderungen"><span class="header-section-number">4.4</span> Sonstige Anforderungen</h2>
+<h2 id="sonstige-anforderungen"><a href="#sonstige-anforderungen"><span class="header-section-number">4.4</span> Sonstige Anforderungen</a></h2>
 <p>Geben Sie hier fachliche Anforderungen an, die Sie keiner der zuvor genannten Rubriken zuordnen</p>
-<h1 id="nichtfunktionale-produktanforderungen"><span class="header-section-number">5</span> Nichtfunktionale Produktanforderungen</h1>
-<h2 id="architektur"><span class="header-section-number">5.1</span> Architektur</h2>
-<p>Beschreiben Sie bereits bekannte Anforderungen an die Architektur der Anwendung</p>
-<h2 id="leistungsanforderungen"><span class="header-section-number">5.2</span> Leistungsanforderungen</h2>
-<p>Beschreiben Sie Leistungsanforderungen, z.B. maximale Reaktionszeiten, voraussichtlicher Speicherbedarf etc.</p>
-<h2 id="benutzbarkeit"><span class="header-section-number">5.3</span> Benutzbarkeit</h2>
-<p>Beschreiben Sie Anforderungen an die Benutzbarkeit des Produkts</p>
-<h2 id="zuverlässigkeit"><span class="header-section-number">5.4</span> Zuverlässigkeit</h2>
-<p>Beschreiben Sie Anforderungen an die Zuverlässigkeit des Produkts</p>
-<h2 id="testbarkeit"><span class="header-section-number">5.5</span> Testbarkeit</h2>
-<p>Anforderungen an die Testbarkeit; Definition globaler Testfälle</p>
-<h2 id="entwicklungs-umgebung"><span class="header-section-number">5.6</span> Entwicklungs-Umgebung</h2>
-<p>Beschreiben Sie die Soft- und Hardware, die Sie bei der Entwicklung benötigen; zeigen Sie insbesondere spezielle Anforderungen auf</p>
-<h1 id="glossar-oder-begriffslexikon-als-anhang"><span class="header-section-number">6</span> Glossar oder Begriffslexikon als Anhang</h1>
-<p>Stellen alle wichtigen Begriffe, die Sie verwenden, zusammen und definieren Sie die Begriffe</p>
+<h1 id="nichtfunktionale-produktanforderungen"><a href="#nichtfunktionale-produktanforderungen"><span class="header-section-number">5</span> Nichtfunktionale Produktanforderungen</a></h1>
+<h2 id="architektur"><a href="#architektur"><span class="header-section-number">5.1</span> Architektur</a></h2>
+<h3 id="präsentationsschicht"><a href="#präsentationsschicht"><span class="header-section-number">5.1.1</span> Präsentationsschicht</a></h3>
+<p>Die Anwendung wird in einem Web-Browser dargestellt und genutzt. Die Struktur wird mit HTML festgelegt, die Definition der Darstellung erfolgt per CSS. Zur Realisierung einer mobilfreundlichen Version wird das Framework Bootstrap in der Version 3.1 genutzt.</p>
+<p>Für interaktive Elemente wird das JavaScript-Framework jQuery eingesetzt.</p>
+<h3 id="logikschicht"><a href="#logikschicht"><span class="header-section-number">5.1.2</span> Logikschicht</a></h3>
+<p>Als Schnittstelle zwischen Präsentation und Daten agiert PHP. Überdies finden hier mathematische und logische Berechnungen statt.</p>
+<p>Für die Kommunikation zur Präsentation wird die Template-Engine Smarty genutzt. Die Schnittstelle zur Datenschicht geschieht über das PHP-Modul mysqli.</p>
+<h3 id="datenschicht"><a href="#datenschicht"><span class="header-section-number">5.1.3</span> Datenschicht</a></h3>
+<p>Sämtliche Daten werden in einer MySQL-Datenbank gespeichert. Zur einfachen Administration wird das Tool phpMyAdmin eingesetzt.</p>
+<h2 id="leistungsanforderungen"><a href="#leistungsanforderungen"><span class="header-section-number">5.2</span> Leistungsanforderungen</a></h2>
+<h3 id="speicherbedarf"><a href="#speicherbedarf"><span class="header-section-number">5.2.1</span> Speicherbedarf</a></h3>
+<p>Der Speicherbedarf ist als gering einzuschätzen. Platz fällt lediglich für als Text abgelegte Daten an. Medien wie Bilder oder Sounddateien sind nicht eingeplant.</p>
+<h3 id="reaktionszeiten"><a href="#reaktionszeiten"><span class="header-section-number">5.2.2</span> Reaktionszeiten</a></h3>
+<p>Die Toleranz des Nutzers darf bezüglich der Wartezeit unter keinen Umständen überschritten werden. Bei längeren Prozessen oder vorhersehbar für längere Zeit ausstehenden Rückmeldungen (beispielsweise beim Zahlungsvorgang) ist darauf zu achten, den Nutzer stets über den aktuellen Status zu informieren und durch Feedback Unsicherheiten zu vermeiden (z. B. durch eine Progressbar).</p>
+<h2 id="benutzbarkeit"><a href="#benutzbarkeit"><span class="header-section-number">5.3</span> Benutzbarkeit</a></h2>
+<p>Die identifizierte Zielgruppe wird im durchschnittlich bis sehr erfahrenen Bereich eingeordnet (siehe oben). Folglich muss die Anwendung modernen Konzepten und Mustern folgen, damit die Nutzer auf eigene Erfahrungen zurückgreifen und Abläufe ohne große Einarbeitung automatisch erschließen können.</p>
+<p>Es wird zudem davon ausgegangen, dass Besucher bewusst die Web-Applikation aufrufen und nicht &quot;zufällig&quot; auf die Seite stoßen - dies hat zur Konsequenz, dass ausführliche Hilfetexte vermieden bzw. auf das Wesentliche reduziert werden können. Wichtiger ist eine eindeutige Benutzerführung. Diese wird erlangt durch eine simple Navigation im oberen Bereich der Seite, zudem muss das Design schlicht gestaltet und höchstens auf drei Farbtöne beschränkt sein. Als Schrift wird der Font &quot;Arial&quot; und als Schriftgröße 12pt verwendet.</p>
+<p>Außerdem ist eine mobile Nutzung Voraussetzung, damit Tagungsteilnehmer auch während der Veranstaltung selber ohne Barrieren über ein mobiles Endgerät die Zeitpläne einsehen können.</p>
+<p>Da auf der Seite sensible Daten ausgetauscht werden (Zahlungsinformationen), muss der Nutzer durch eindeutiges Feedback immer über den aktuellen Status in Kenntnis gesetzt werden.</p>
+<p>Sämtliche oben genannten Aspekte müssen browserübergreifend erfüllt werden. Eine Prüfung auf Kompatibiliät für alle gängigen Browser ist somit notwendig.</p>
+<h2 id="zuverlässigkeit"><a href="#zuverlässigkeit"><span class="header-section-number">5.4</span> Zuverlässigkeit</a></h2>
+<p>Zuverlässigkeit muss wie bei jedem Informationssystem Priorität sein. Es ist davon auszugehen, dass es bezüglich der Besucherfrequenzen je nach Angebot der Tagungen und ihren entsprechenden Zeitpunkten Schwankungen gibt. Gerade in den Monaten vor und insbesondere auch <em>während</em> der Tagungen ist eine zweifellose Zuverlässigkeit erforderlich.</p>
+<p>Hervorzuheben ist insbesondere der Zahlungsprozess. Das Vertrauen des Nutzers darf nicht durch Ausfälle verletzt werden.</p>
+<p>Zur Vorbeugung falscher Daten und einer daraus resultierenden Fehleranfälligkeit, sind Eingabedaten insbesondere serverseitig und aus Usability-Gründen auch clientseitig zu validieren.</p>
+<h2 id="testbarkeit"><a href="#testbarkeit"><span class="header-section-number">5.5</span> Testbarkeit</a></h2>
+<p>Es gilt, während der Entwicklungsphase klassische Fehlerfälle zu identifizieren und zu testen. Clientseitig wird dazu der Debugger des Chrome-Browsers genutzt, für serverseitige Testverfahren wird das Framework PHPunit genutzt.</p>
+<p>Bisher definierte Testfälle:</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Fehlerfall</th>
+<th style="text-align: left;">gewünsche Aktion</th>
+<th style="text-align: left;">Häufigkeit</th>
+<th style="text-align: left;">Relevanz</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">falsche Eingabedaten</td>
+<td style="text-align: left;">Validierung, Fehlermeldung</td>
+<td style="text-align: left;">hoch</td>
+<td style="text-align: left;">hoch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Unterbrechung des Zahlungsvorgangs</td>
+<td style="text-align: left;">Absicherung durch Transaktion</td>
+<td style="text-align: left;">selten</td>
+<td style="text-align: left;">hoch</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ausfall der Datenbank</td>
+<td style="text-align: left;">Fehlermeldung, Wiederholung ermöglichen</td>
+<td style="text-align: left;">selten</td>
+<td style="text-align: left;">mittel</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">JavaScript deaktiviert</td>
+<td style="text-align: left;">Hinweis, nach Möglichkeit Alternativen</td>
+<td style="text-align: left;">selten</td>
+<td style="text-align: left;">mittel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Belastung des Servers</td>
+<td style="text-align: left;">Hinweis auf späteren Besuch</td>
+<td style="text-align: left;">selten</td>
+<td style="text-align: left;">niedrig</td>
+</tr>
+</tbody>
+</table>
+<h2 id="entwicklungs-umgebung"><a href="#entwicklungs-umgebung"><span class="header-section-number">5.6</span> Entwicklungs-Umgebung</a></h2>
+<ul>
+<li>Clientseitige Programmierung
+<ul>
+<li>PC</li>
+<li>Sublime Text 3</li>
+<li>Google Chrome</li>
+</ul></li>
+<li>Serverseitige Programmierung
+<ul>
+<li>PC</li>
+<li>lokaler Webserver</li>
+<li>PHPStorm</li>
+<li>PHPUnit</li>
+<li>MySQL</li>
+<li>phpMyAdmin</li>
+</ul></li>
+</ul>
+<h1 id="glossar-oder-begriffslexikon-als-anhang"><a href="#glossar-oder-begriffslexikon-als-anhang"><span class="header-section-number">6</span> Glossar oder Begriffslexikon als Anhang</a></h1>
+<h2 id="php"><a href="#php"><span class="header-section-number">6.1</span> PHP</a></h2>
+<p>Serverseitige Skriptsprache.</p>
+<h2 id="phpunit"><a href="#phpunit"><span class="header-section-number">6.2</span> PHPUnit</a></h2>
+<p>Framework zum Testen von PHP-Anwendung.</p>
+<h2 id="mysql"><a href="#mysql"><span class="header-section-number">6.3</span> MySQL</a></h2>
+<p>Weit verbreitetes relationales Datenbankverwaltungssystem.</p>
+<h2 id="jquery"><a href="#jquery"><span class="header-section-number">6.4</span> jQuery</a></h2>
+<p>Framework für JavaScript. Ermöglicht die schnelle Erstellung von Interaktionselementen und Animationen. Wird in Verbindung mit AJAX häufig für die Umsetzung des SinglePage-Ansatzes genutzt.</p>
+<h2 id="sublime-text-3"><a href="#sublime-text-3"><span class="header-section-number">6.5</span> Sublime Text 3</a></h2>
+<p>Leichtgewichtiger und schneller Editor mit zahlreichen Plugins und einem auf Shortcuts basierenden Workflow.</p>
+<h2 id="phpstorm"><a href="#phpstorm"><span class="header-section-number">6.6</span> PHPStorm</a></h2>
+<p>Komplexe IDE für PHP-Projekte. Bietet zahlreiche Komfortfunktionen und Plugins.</p>
+<h2 id="apache-webserver"><a href="#apache-webserver"><span class="header-section-number">6.7</span> Apache Webserver</a></h2>
+<p>Quelloffener Webserver. Inzwischen weltweit am meisten genutzt.</p>
 </body>
 </html>

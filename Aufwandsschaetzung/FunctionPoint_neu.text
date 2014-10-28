@@ -4,7 +4,8 @@
 *DB* = betroffene Datenbestände
 
 ##Eingabe
-* Online-Anmeldung *(E: E-Mail, Passwort, Registrieren, DB: Teilnehmer, Hochschulmitarbeiter)*
+* Registrierung *(E: E-Mail, Passwort, Registrieren, DB: Teilnehmer, Hochschulmitarbeiter)*
+* Login *(E: E-Mail, Passwort, Login, DB: Teilnehmer, Hochschulmitarbeiter)*
 * Leistung buchen *(E: Vorname, Nachname, Straße, Ort, Kontoinhaber, Kontonummer, BLZ, Speichern, DB: Teilnehmer, Tagungen, Tagungseinheiten, Buchungen, Zahlungen)*
 * Teilnahme bestätigen *(E: Bestätigen, DB: Teilnehmer, Tagungen, Tagungseinheiten, Buchungen)*
 * Tagung erstellen *(E: Name, Zeit, Beschreibung, Tagungseinheit(en), Speichern, DB: Tagungen, Tagungseinheit(en))*
@@ -46,16 +47,16 @@
 #Function Points
 |Elementarprozess|Anzahl|Komplexität|FP|
 |-|-|-|-|
-|Eingaben|14|6|84|
+|Eingaben|15|6|90|
 |Ausgaben|7|5|35|
 |Abfragen|1|4|4|
 |Datenbestände|7|10|70|
 |Referenzdaten|1|7|7|
-|**SUMME**|||**200**|
+|**SUMME**|||**206**|
 
 #Aufwandsschätzung
 ##Zeit
-Nach IBM-Maßstab errechnet sich für 200 Function Points ein Aufwand von *14* Mannmonaten.
+Nach IBM-Maßstab errechnet sich für 206 Function Points ein Aufwand von *14* Mannmonaten.
 
 ##Personal
 
