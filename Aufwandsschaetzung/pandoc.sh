@@ -1,3 +1,3 @@
 #!/bin/bash
-pandoc -s FunctionPoint.text -o FunctionPoint.html -c style.css
+pandoc -s FunctionPoint_neu.text -o FunctionPoint_neu.html -c style.css
 
