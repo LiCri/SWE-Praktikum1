@@ -4,12 +4,11 @@
 ---
 ###**Aufgabenverteilung(provisorisch):**
 
-> - **Simon:** Use-Case-Diagramme, UML-Klassendiagramm und Punkt 3 in der Dokumentation
-> - **Lukas:** FP-Analyse und Aufwandsschätzung
-> - **Liviu:** Punkt 1,2 in der Dokumentation 
+> - **Simon:** Use-Case-Diagramme, UML-Klassendiagramm (ist Punkt 4 Komplett)
+> - **Lukas:** FP-Analyse und Aufwandsschätzung(erledigt!!), Punkt 5
+> - **Liviu:** Punkt 1,2,3 in der Dokumentation(erledigt!!) 
 
 
-**Den Rest besprechen wir wenn die Aufwandsschätzung abgeschlossen ist**
 
 #Fragen an den Beims
 
