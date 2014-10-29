@@ -100,7 +100,7 @@ Darüber hinaus kann der Tagungsteilnehmer auch noch zusätzlich spezielle Hinwe
 
 ![Verwaltungsbereich](./Use-Case-Diagramme/Verwaltungsbereich.jpg)
 
-Der verwaltungsbereich, welcher nur für Hochschulmitarbeiter zugänglich ist, biete eine vielzahl von Möglichkeiten die Datenbank im allgemeinen zu verwalten. 
+Der verwaltungsbereich, welcher nur für Hochschulmitarbeiter zugänglich ist, biete eine vielzahl von Möglichkeiten die Datenbank im allgemeinen zu verwalten. Es wird vorrausgesetzt des der Hochschulmitarbeiter eingeloggt ist und ihm sämtlkche Funktionen zur Verfügung stehen.
 
 ## Benutzerschnittstelle
 
