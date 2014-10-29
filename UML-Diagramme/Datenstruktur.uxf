@@ -181,7 +181,7 @@ m2=   1</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
-m2=*</panel_attributes>
+m2=0..*</panel_attributes>
     <additional_attributes>120;30;30;30</additional_attributes>
   </element>
   <element>
@@ -193,9 +193,9 @@ m2=*</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
-m1=1
-m2=*</panel_attributes>
-    <additional_attributes>280;30;30;30</additional_attributes>
+m1=1..*
+m2=1</panel_attributes>
+    <additional_attributes>30;30;280;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
