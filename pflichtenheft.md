@@ -12,8 +12,8 @@ author:
    name2: Hensel, Simon, 880997
    name3: Wewering, Lukas, 880680
 revision:
-   level: 0 
-   date: 26.10.2014
+   level: 1.0 
+   date: 29.10.2014
 lang: de
 cssextra: ph.css
 ---
@@ -49,10 +49,8 @@ Zuletzt muss das Erstellen und Ändern des Tagesprogramms selber bewerkstelligt 
 # Produkt-Einsatz    
 
 ## Anwendungsbereiche
-Das Produkt soll an der Hochschule Niederrhein als Informationssystem für Tagungen eingesetzt werden. Das Produkt wird als Web-Applikation genutzt und lässt sich über den Web-Browser betrachten.
-
-Die Benutzer der Seite sollen einen Überblick über das Tagungsprogramm bekommen.
-
+Das Produkt soll an der Hochschule Niederrhein als Informationssystem für Tagungen eingesetzt werden. Das Produkt wird als Web-Applikation genutzt und lässt sich über den Web-Browser betrachten.   
+Die Benutzer der Seite sollen einen Überblick über das Tagungsprogramm bekommen.   
 Es soll auch die Verwaltung der Teinehmer einer Tagung einschließlich der zu beachtenden Buchungen und Gebühren gewährleistet sein. 
 
 ## Zielgruppen
@@ -61,15 +59,14 @@ Die Benutzer der Seite sind Personen im mittleren Alter sowie auch evtl. Student
 Es werden verschiedene Rollen für die Applikation Vorgesehen:
 
 > - **Besucher:** Kann sich im Info-Bereich die angebotenen Tagungsprogramme ansehen und sich auch unverbindlich ein eigenes Tagungsprogramm zusammenstellen.
-> - **Registrierter Benutzer:** Hat die gleichen Möglichkeiten wie der Besucher, mit dem Zusatz dass er spezielle Hinweise sehen und Leistungen buchen kann.
+> - **Registrierter Benutzer:** Hat die gleichen Möglichkeiten wie der Besucher, mit dem Zusatz dass er spezielle Hinweise und Leistungen sehen und Leistungen buchen kann.
 > - **Verwaltungsbereich:** Möglichkeit, das Tagungsprogramm und alles, was damit zusammenhängt, zu bearbeiten, Registrierungen von Tagungsteilnehmern zu bestätigen und zu verwalten sowie Buchungen, Zahlungen und Forderungen zu verwalten.
 
 ## Betriebsbedingungen
 In normalem Betrieb ist nicht mit außergewöhnlichen Betriebsbedingungen zu rechnen. Dies ändert sich in den Phasen, wo sehr viele Tagungen angeboten werden, da die Nachfrage sehr groß ist. Dies kann dazu führen, dass der Server überlastet wird. Daher ist vorrauszusetzten, dass der Server sowie auch die Software eine große Anzahl an Anfragen verarbeiten kann.
 
 # Produkt-Umgebung
-Die Software wird als Web-Applikation eingesetzt, welche auf einem Web-Server zur Verfügung gestellt werden muss.
-
+Die Software wird als Web-Applikation eingesetzt, welche auf einem Web-Server zur Verfügung gestellt werden muss.   
 Weiter muss eine Schnittstelle zu den Bankservern sowie diversen anderen Bezahldiensten implementiert und bereitgestellt werden.
 
 ## Software
@@ -78,13 +75,13 @@ Als Software zwingend notwendig ist ein Web-Client (Browser).
 Weiterhin wird ein Datenbanksystem benötigt, um das Tagungsprogramm, die Tagungsteilnehmer und die Buchungen zu verwalten und über Abfragen schneller an die Daten zu kommen. Für das Datenbanksystem muss eine Schnittstelle zur Web-Applikation bereitgestellt werden, damit Datensätze eingefügt, abgefragt und ausgewertet werden können.
 
 ## Hardware
-Der Nutzer benötigt zum Aufruf der Webseite einen PC oder alternativ ein mobiles Endgerät. 
-
+Der Nutzer benötigt zum Aufruf der Webseite einen PC oder alternativ ein mobiles Endgerät.   
 Für den Betrieb der Applikation wird ein Web-Server benötigt, der entsprechend konfiguriert und über eine festgelegte URL erreichbar ist.
 
 # Funktionale Produkt-Anforderungen
 
-> **Definieren Sie die Anforderungen die Funktionalität des Produkts.**
+Die Software soll den Besuchern und Tagungsteilnehmern eine bequeme und schnelle Übersicht über das Angebot der Betreiber zu Verschaffen.   
+Es soll ebenso den Verwaltern der Tagungen eine schnelle Übersicht über die anstehenden Tagungen, inkl.Teilnehmern und Rednern, verschaffen und ebenso eine schnelle Auswertung der Zahlungen und Forderungen die getätigt wurden oder noch offen sind.
 
 ## Anwendungsfälle
 
