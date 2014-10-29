@@ -58,7 +58,8 @@
 ##Zeit
 Nach IBM-Maßstab errechnet sich für 206 Function Points ein Aufwand von *14* Mannmonaten.
 
-##Personal
+##Kosten
+Bei einer Schätzung von 5000€ pro Mannmonat ergeben sich Gesamtkosten von 70000€ für dieses Projekt.
 
 #Offene Fragen
 * Wie ist das individualisierte Tagungsprogramm definiert?
