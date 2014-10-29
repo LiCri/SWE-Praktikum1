@@ -91,11 +91,12 @@ Die Startseite bietet dem Benutzer, je nach Absicht auf die Entsprechende Seite 
 
 ![Info-Bereich](./Use-Case-Diagramme/info-Bereich.jpg)
 
-Der Info-Bereich, welcher für den Besucher und Tagungsteilnehmer konzipiert ist, bietet eine vielseite Möglichkeit sich über Tagungen zu informieren und auch bei Bedarf sich aktuelle Hinweise geben zu lassen. Der Tagungsteilnehmer erbt hierbei die Informationsmöglichkeiten des normalen Benutzer, hat aber darüber hinaus noch die möglichkeit sich für Tagungen per Online-Anmeldung anzumelden.
+Der Info-Bereich, welcher für den Besucher und Tagungsteilnehmer konzipiert ist, bietet eine vielseitige Möglichkeit sich über Tagungen zu informieren und auch bei Bedarf sich aktuelle Hinweise geben zu lassen. Der Tagungsteilnehmer erbt hierbei die Informationsmöglichkeiten des normalen Benutzer, hat aber darüber hinaus noch die möglichkeit sich für Tagungen per Online-Anmeldung anzumelden.
 
 ![Registrierungsbereich](./Use-Case-Diagramme/Registrierungsbereich.jpg)
 
-
+Durch den Registrierungsbereich hat der Tagungsteilnehmer die Möglichkeit sich zu registrieren und eine Leistungsübersicht einzusehen. Für die buchung von Leistungen wird eine Registrierung vorrausgesetzt welche vorher von der Datenbank geprüft und eingetragen wurde.
+Darüber hinaus kann der Tagungsteilnehmer auch noch zusätzlich spezielle Hinweise bekommen.
 
 ![Verwaltungsbereich](./Use-Case-Diagramme/Verwaltungsbereich.jpg)
 
