@@ -80,7 +80,7 @@ Für den Betrieb der Applikation wird ein Web-Server benötigt, der entsprechend
 
 # Funktionale Produkt-Anforderungen
 
-Die Software soll den Besuchern und Tagungsteilnehmern eine bequeme und schnelle Übersicht über das Angebot der Betreiber zu Verschaffen.   
+Die Software soll den Besuchern und Tagungsteilnehmern eine bequeme und schnelle Übersicht über das Angebot der Betreiber zu verschaffen.   
 Es soll ebenso den Verwaltern der Tagungen eine schnelle Übersicht über die anstehenden Tagungen, inkl.Teilnehmern und Rednern, verschaffen und ebenso eine schnelle Auswertung der Zahlungen und Forderungen die getätigt wurden oder noch offen sind.
 
 ## Anwendungsfälle
@@ -106,17 +106,17 @@ Der verwaltungsbereich, welcher nur für Hochschulmitarbeiter zugänglich ist, b
 
 Die Webaplikation versucht folgenden Anforderungen an die grafische Benutzeroberfläche gerecht zu werden:   
 **Konsistente Bedienerführung**   
-Gleichartige Bedienelemente haben im gesamten Programm auch gleichartige Bedeutungen. Z.B. führt das Drücken eines Knopfes mit der Aufschrift Cancel immer zum Abbruch einer bereits begonnenen Spezifikation.
-Unabhängig davon, welcher Objekttyp gerade bearbeitet wird, sind immer die gleichen Schritte durchzufu''hren. So kann sich der Benutzer Wissen, das er sich bei der Bearbeitung eines Objekttyps angeeignet hat, auf andere Objekttypen anwenden.   
+Gleichartige Bedienelemente haben im gesamten Programm auch gleichartige Bedeutungen. z.B. führt das Drücken eines Knopfes mit der Aufschrift Cancel immer zum Abbruch des gerade ausführenden Arbeitsschrittes.
+Unabhängig davon, welcher Objekttyp gerade bearbeitet wird, sind immer die gleichen Schritte durchzuführen. So kann sich der Benutzer, wissen das er sich bei der Bearbeitung eines Objekttyps angeeignet hat, auf andere Objekttypen anwenden.   
 **Überschaubare Informationseinheiten**   
 Der Benutzer wird nicht von riesigen Fenstern mit einer Überzahl von Eingabemöglichkeiten überfordert. Dem wenig fortgeschrittenen Benutzer zeigt sich zunächst ein simples Eingabeformular, in dem die notwendigen und gängigsten Spezifikationen vorgenommen werden. Der weiter fortgeschrittene Benutzer kann per Knopfdruck Formulare aufrufen, in denen er weiterreichende Spezifikationen vornehmen kann.
-Einige grafische Elemente werden erst dann verwendbar, wenn der Benutzer zuvor bestimmte Aktionen getätigt hat. Z.B. kann der Knopf zum Löschen eines Objekts erst dann betätight werden, wenn zuvor ein Objekt durch Anklicken ausgewählt wurde. Das grafische Element ändert dementsprechend sein Erscheinungsbild. Diese Eigenschaft verbessert die intuitive Bedienbarkeit des Programms und unterstützt den Benutzer bei der Wahl der Reihenfolge seiner Aktionen, ohne ihn dabei zu sehr einzuschränken.   
+Einige grafische Elemente werden erst dann verwendbar, wenn der Benutzer zuvor bestimmte Aktionen getätigt hat. z.B. kann der Knopf zum Löschen eines Objekts erst dann betätight werden, wenn zuvor ein Objekt durch Anklicken ausgewählt wurde. Das grafische Element ändert dementsprechend sein Erscheinungsbild. Diese Eigenschaft verbessert die intuitive Bedienbarkeit des Programms und unterstützt den Benutzer bei der Wahl der Reihenfolge seiner Aktionen, ohne ihn dabei zu sehr einzuschränken.   
 **Anpaßbarkeit an Benutzerwünsche**   
-In der  Webaplikation lassen sich die Farben von grafischen Elementen je nach wunsch und Geschmack anpassen.   
+In der Webaplikation lassen sich die Farben von grafischen Elementen je nach Wunsch und Geschmack anpassen.   
 **Kurze Antwortzeiten**   
-Ergebnisse von Anfragen an die Datenbank werden direkt nach dem Empfang der ersten  vom Datenbanksystem zurückgelieferten Tupel dargestellt,  anstatt erst  das gesamte Ergebnis zu sammeln und dann darzustellen.   
+Ergebnisse von Anfragen an die Datenbank werden direkt nach dem Empfang der ersten vom Datenbanksystem zurückgelieferten Tupel dargestellt,  anstatt erst  das gesamte Ergebnis zu sammeln und dann darzustellen.   
 **Reversibilität**   
-Dem Benutzer wird in annähernd jeder Situation die Möglichkeit gegeben, eine bereits begonnene Spezifikation zu verwerfen.   
+Dem Benutzer wird in annähernd jeder Situation die Möglichkeit gegeben, einen bereits begonnenen Arbeitsschritt zu verwerfen.   
 **Schnelle Unterstützung durch Hilfesystem**   
 Ein unkompliziertes Hilfesystem unterstützt die Arbeit des Benutzers.   
 **Bedienbarkeit mit Tastatur und Maus**   
@@ -128,7 +128,7 @@ Die Navigation ist innerhalb der gesamten Webaplikation sowohl mit der Maus als 
 
 ## Sonstige Anforderungen
 
-Geben Sie hier fachliche Anforderungen an, die Sie keiner der zuvor genannten Rubriken zuordnen
+> **Geben Sie hier fachliche Anforderungen an, die Sie keiner der zuvor genannten Rubriken zuordnen**
 
 # Nichtfunktionale Produktanforderungen   
 
@@ -156,15 +156,11 @@ Der Speicherbedarf ist als gering einzuschätzen. Platz fällt lediglich für al
 Die Toleranz des Nutzers darf bezüglich der Wartezeit unter keinen Umständen überschritten werden. Bei längeren Prozessen oder vorhersehbar für längere Zeit ausstehenden Rückmeldungen (beispielsweise beim Zahlungsvorgang) ist darauf zu achten, den Nutzer stets über den aktuellen Status zu informieren und durch Feedback Unsicherheiten zu vermeiden (z. B. durch eine Progressbar).
 
 ## Benutzbarkeit
-Die identifizierte Zielgruppe wird im durchschnittlich bis sehr erfahrenen Bereich eingeordnet (siehe oben). Folglich muss die Anwendung modernen Konzepten und Mustern folgen, damit die Nutzer auf eigene Erfahrungen zurückgreifen und Abläufe ohne große Einarbeitung automatisch erschließen können.
-
+Die identifizierte Zielgruppe wird im durchschnittlich bis sehr erfahrenen Bereich eingeordnet (siehe oben). Folglich muss die Anwendung modernen Konzepten und Mustern folgen, damit die Nutzer auf eigene Erfahrungen zurückgreifen und Abläufe ohne große Einarbeitung automatisch erschließen können.   
 Es wird zudem davon ausgegangen, dass Besucher bewusst die Web-Applikation aufrufen und nicht "zufällig" auf die Seite stoßen - dies hat zur Konsequenz, dass ausführliche Hilfetexte vermieden bzw. auf das Wesentliche reduziert werden können. Wichtiger ist eine eindeutige Benutzerführung.
-Diese wird erlangt durch eine simple Navigation im oberen Bereich der Seite, zudem muss das Design schlicht gestaltet und höchstens auf drei Farbtöne beschränkt sein. Als Schrift wird der Font "Arial" und als Schriftgröße 12pt verwendet.
-
-Außerdem ist eine mobile Nutzung Voraussetzung, damit Tagungsteilnehmer auch während der Veranstaltung selber ohne Barrieren über ein mobiles Endgerät die Zeitpläne einsehen können.
-
-Da auf der Seite sensible Daten ausgetauscht werden (Zahlungsinformationen), muss der Nutzer durch eindeutiges Feedback immer über den aktuellen Status in Kenntnis gesetzt werden. 
-
+Diese wird erlangt durch eine simple Navigation im oberen Bereich der Seite, zudem muss das Design schlicht gestaltet und höchstens auf drei Farbtöne beschränkt sein. Als Schrift wird der Font "Arial" und als Schriftgröße 12pt verwendet.   
+Außerdem ist eine mobile Nutzung Voraussetzung, damit Tagungsteilnehmer auch während der Veranstaltung selber ohne Barrieren über ein mobiles Endgerät die Zeitpläne einsehen können.   
+Da auf der Seite sensible Daten ausgetauscht werden (Zahlungsinformationen), muss der Nutzer durch eindeutiges Feedback immer über den aktuellen Status in Kenntnis gesetzt werden.   
 Sämtliche oben genannten Aspekte müssen browserübergreifend erfüllt werden. Eine Prüfung auf Kompatibiliät für alle gängigen Browser ist somit notwendig.
 
 ## Zuverlässigkeit
@@ -178,7 +174,7 @@ Zur Vorbeugung falscher Daten und einer daraus resultierenden Fehleranfälligkei
 Es gilt, während der Entwicklungsphase klassische Fehlerfälle zu identifizieren und zu testen.
 Clientseitig wird dazu der Debugger des Chrome-Browsers genutzt, für serverseitige Testverfahren wird das Framework PHPunit genutzt.
 
-Bisher definierte Testfälle:   
+**Bisher definierte Testfälle:***   
 
 |Fehlerfall                         |gewünsche Aktion                         |Häufigkeit |Relevanz |
 |-----------------------------------|-----------------------------------------|-----------|---------|
