@@ -88,19 +88,19 @@ Für den Betrieb der Applikation wird ein Web-Server benötigt, der entsprechend
 
 ## Anwendungsfälle
 
-![Startseite](main-page.jpg)
+![Startseite](./Use-Case-Diagramme/main-page.jpg)
 
 Die Startseite bietet dem Benutzer, je nach Absicht auf die Entsprechende Seite zu wechseln. Dieser Use-Case ist für die implementierung nicht stark von Bewandnis und dient hier nur der verdeutlichung der Benutzer Rollen.
 
-![Info-Bereich](info-Bereich.jpg)
+![Info-Bereich](./Use-Case-Diagramme/info-Bereich.jpg)
 
 Der Info-Bereich, welcher für den Besucher und Tagungsteilnehmer konzipiert ist, bietet eine vielseite Möglichkeit sich über Tagungen zu informieren und auch bei Bedarf sich aktuelle Hinweise geben zu lassen. Der Tagungsteilnehmer erbt hierbei die Informationsmöglichkeiten des normalen Benutzer, hat aber darüber hinaus noch die möglichkeit sich für Tagungen per Online-Anmeldung anzumelden.
 
-![Registrierungsbereich](Registrierungsbereich.jpg)
+![Registrierungsbereich](./Use-Case-Diagramme/Registrierungsbereich.jpg)
 
 
 
-![Verwaltungsbereich](Verwaltungsbereich.jpg)
+![Verwaltungsbereich](./Use-Case-Diagramme/Verwaltungsbereich.jpg)
 
 Der verwaltungsbereich, welcher nur für Hochschulmitarbeiter zugänglich ist, biete eine vielzahl von Möglichkeiten die Datenbank im allgemeinen zu verwalten. 
 
@@ -110,7 +110,7 @@ Beschreiben Sie fachlichen Anforderungen an die Benutzerschnittstelle
 
 ## Datenbasis
 
-![Datenstruktur](Datenstruktur.jpg)
+![Datenstruktur](./UML-Diagramme/Datenstruktur.jpg)
 
 ## Sonstige Anforderungen
 
