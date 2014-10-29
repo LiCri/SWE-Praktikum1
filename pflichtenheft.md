@@ -106,22 +106,22 @@ Der verwaltungsbereich, welcher nur für Hochschulmitarbeiter zugänglich ist, b
 
 ## Benutzerschnittstelle
 
-Die Webaplikation versucht folgenden Anforderungen an die grafische Benutzeroberfläche gerecht zu werden:
-**Konsistente Bedienerführung**
+Die Webaplikation versucht folgenden Anforderungen an die grafische Benutzeroberfläche gerecht zu werden:   
+**Konsistente Bedienerführung**   
 Gleichartige Bedienelemente haben im gesamten Programm auch gleichartige Bedeutungen. Z.B. führt das Drücken eines Knopfes mit der Aufschrift Cancel immer zum Abbruch einer bereits begonnenen Spezifikation.
-Unabhängig davon, welcher Objekttyp gerade bearbeitet wird, sind immer die gleichen Schritte durchzufu''hren. So kann sich der Benutzer Wissen, das er sich bei der Bearbeitung eines Objekttyps angeeignet hat, auf andere Objekttypen anwenden.
-**Überschaubare Informationseinheiten**
+Unabhängig davon, welcher Objekttyp gerade bearbeitet wird, sind immer die gleichen Schritte durchzufu''hren. So kann sich der Benutzer Wissen, das er sich bei der Bearbeitung eines Objekttyps angeeignet hat, auf andere Objekttypen anwenden.   
+**Überschaubare Informationseinheiten**   
 Der Benutzer wird nicht von riesigen Fenstern mit einer Überzahl von Eingabemöglichkeiten überfordert. Dem wenig fortgeschrittenen Benutzer zeigt sich zunächst ein simples Eingabeformular, in dem die notwendigen und gängigsten Spezifikationen vorgenommen werden. Der weiter fortgeschrittene Benutzer kann per Knopfdruck Formulare aufrufen, in denen er weiterreichende Spezifikationen vornehmen kann.
-Einige grafische Elemente werden erst dann verwendbar, wenn der Benutzer zuvor bestimmte Aktionen getätigt hat. Z.B. kann der Knopf zum Löschen eines Objekts erst dann betätight werden, wenn zuvor ein Objekt durch Anklicken ausgewählt wurde. Das grafische Element ändert dementsprechend sein Erscheinungsbild. Diese Eigenschaft verbessert die intuitive Bedienbarkeit des Programms und unterstützt den Benutzer bei der Wahl der Reihenfolge seiner Aktionen, ohne ihn dabei zu sehr einzuschränken.
-**Anpaßbarkeit an Benutzerwünsche**
-In der  Webaplikation lassen die Farben von grafischen Elementen je nach wunsch und Geschmack anpassen.
-**Kurze Antwortzeiten**
-Ergebnisse von Anfragen an die Datenbank werden direkt nach dem Empfang der ersten  vom Datenbanksystem zurückgelieferten Tupel dargestellt,  anstatt erst  das gesamte Ergebnis zu sammeln und dann darzustellen.
-**Reversibilität**
-Dem Benutzer wird in annähernd jeder Situation die Möglichkeit gegeben, eine bereits begonnene Spezifikation zu verwerfen.
-**Schnelle Unterstützung durch Hilfesystem**
-Ein unkompliziertes Hilfesystem unterstützt die Arbeit des Benutzers.
-**Bedienbarkeit mit Tastatur und Maus**
+Einige grafische Elemente werden erst dann verwendbar, wenn der Benutzer zuvor bestimmte Aktionen getätigt hat. Z.B. kann der Knopf zum Löschen eines Objekts erst dann betätight werden, wenn zuvor ein Objekt durch Anklicken ausgewählt wurde. Das grafische Element ändert dementsprechend sein Erscheinungsbild. Diese Eigenschaft verbessert die intuitive Bedienbarkeit des Programms und unterstützt den Benutzer bei der Wahl der Reihenfolge seiner Aktionen, ohne ihn dabei zu sehr einzuschränken.   
+**Anpaßbarkeit an Benutzerwünsche**   
+In der  Webaplikation lassen die Farben von grafischen Elementen je nach wunsch und Geschmack anpassen.   
+**Kurze Antwortzeiten**   
+Ergebnisse von Anfragen an die Datenbank werden direkt nach dem Empfang der ersten  vom Datenbanksystem zurückgelieferten Tupel dargestellt,  anstatt erst  das gesamte Ergebnis zu sammeln und dann darzustellen.   
+**Reversibilität**   
+Dem Benutzer wird in annähernd jeder Situation die Möglichkeit gegeben, eine bereits begonnene Spezifikation zu verwerfen.   
+**Schnelle Unterstützung durch Hilfesystem**   
+Ein unkompliziertes Hilfesystem unterstützt die Arbeit des Benutzers.   
+**Bedienbarkeit mit Tastatur und Maus**   
 Die Navigation ist innerhalb der gesamten Webaplikation sowohl mit der Maus als auch mit der Tastatur möglich.
 
 ## Datenbasis
