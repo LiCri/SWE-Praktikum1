@@ -88,7 +88,21 @@ Für den Betrieb der Applikation wird ein Web-Server benötigt, der entsprechend
 
 ## Anwendungsfälle
 
-Beschreiben Sie die Anwendungsfälle mit UML-Anwendungsfalldiagrammen und geben Sie dabei für jeden Anwendungsfall eine Beschreibung an, aus der hervorgeht, ob der Anwendungsfall zwingend erforderlich oder optional ist. Ergänzen Sie die Beschreibung der Anwendungsfälle ggf. durch die Definition von Arbeitsflüssen (Workflows) und / oder der Beschreibung dynamischer Aspekte
+![Startseite](main-page.jpg)
+
+Die Startseite bietet dem Benutzer, je nach Absicht auf die Entsprechende Seite zu wechseln. Dieser Use-Case ist für die implementierung nicht stark von Bewandnis und dient hier nur der verdeutlichung der Benutzer Rollen.
+
+![Info-Bereich](info-Bereich.jpg)
+
+Der Info-Bereich, welcher für den Besucher und Tagungsteilnehmer konzipiert ist, bietet eine vielseite Möglichkeit sich über Tagungen zu informieren und auch bei Bedarf sich aktuelle Hinweise geben zu lassen. Der Tagungsteilnehmer erbt hierbei die Informationsmöglichkeiten des normalen Benutzer, hat aber darüber hinaus noch die möglichkeit sich für Tagungen per Online-Anmeldung anzumelden.
+
+![Registrierungsbereich](Registrierungsbereich.jpg)
+
+
+
+![Verwaltungsbereich](Verwaltungsbereich.jpg)
+
+Der verwaltungsbereich, welcher nur für Hochschulmitarbeiter zugänglich ist, biete eine vielzahl von Möglichkeiten die Datenbank im allgemeinen zu verwalten. 
 
 ## Benutzerschnittstelle
 
@@ -96,7 +110,7 @@ Beschreiben Sie fachlichen Anforderungen an die Benutzerschnittstelle
 
 ## Datenbasis
 
-Beschreiben Sie die fachlichen Anforderungen an die Struktur der Datenbasis. Verwenden Sie UML-Klassendiagramme.
+![Datenstruktur](Datenstruktur.jpg)
 
 ## Sonstige Anforderungen
 
