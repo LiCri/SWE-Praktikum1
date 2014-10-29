@@ -91,11 +91,12 @@ Die Startseite bietet dem Benutzer, je nach Absicht auf die Entsprechende Seite 
 
 ![Info-Bereich](./Use-Case-Diagramme/info-Bereich.jpg)
 
-Der Info-Bereich, welcher für den Besucher und Tagungsteilnehmer konzipiert ist, bietet eine vielseite Möglichkeit sich über Tagungen zu informieren und auch bei Bedarf sich aktuelle Hinweise geben zu lassen. Der Tagungsteilnehmer erbt hierbei die Informationsmöglichkeiten des normalen Benutzer, hat aber darüber hinaus noch die möglichkeit sich für Tagungen per Online-Anmeldung anzumelden.
+Der Info-Bereich, welcher für den Besucher und Tagungsteilnehmer konzipiert ist, bietet eine vielseitige Möglichkeit sich über Tagungen zu informieren und auch bei Bedarf sich aktuelle Hinweise geben zu lassen. Der Tagungsteilnehmer erbt hierbei die Informationsmöglichkeiten des normalen Benutzer, hat aber darüber hinaus noch die möglichkeit sich für Tagungen per Online-Anmeldung anzumelden.
 
 ![Registrierungsbereich](./Use-Case-Diagramme/Registrierungsbereich.jpg)
 
-
+Durch den Registrierungsbereich hat der Tagungsteilnehmer die Möglichkeit sich zu registrieren und eine Leistungsübersicht einzusehen. Für die buchung von Leistungen wird eine Registrierung vorrausgesetzt welche vorher von der Datenbank geprüft und eingetragen wurde.
+Darüber hinaus kann der Tagungsteilnehmer auch noch zusätzlich spezielle Hinweise bekommen.
 
 ![Verwaltungsbereich](./Use-Case-Diagramme/Verwaltungsbereich.jpg)
 
@@ -111,7 +112,7 @@ Unabhängig davon, welcher Objekttyp gerade bearbeitet wird, sind immer die glei
 Der Benutzer wird nicht von riesigen Fenstern mit einer Überzahl von Eingabemöglichkeiten überfordert. Dem wenig fortgeschrittenen Benutzer zeigt sich zunächst ein simples Eingabeformular, in dem die notwendigen und gängigsten Spezifikationen vorgenommen werden. Der weiter fortgeschrittene Benutzer kann per Knopfdruck Formulare aufrufen, in denen er weiterreichende Spezifikationen vornehmen kann.
 Einige grafische Elemente werden erst dann verwendbar, wenn der Benutzer zuvor bestimmte Aktionen getätigt hat. Z.B. kann der Knopf zum Löschen eines Objekts erst dann betätight werden, wenn zuvor ein Objekt durch Anklicken ausgewählt wurde. Das grafische Element ändert dementsprechend sein Erscheinungsbild. Diese Eigenschaft verbessert die intuitive Bedienbarkeit des Programms und unterstützt den Benutzer bei der Wahl der Reihenfolge seiner Aktionen, ohne ihn dabei zu sehr einzuschränken.   
 **Anpaßbarkeit an Benutzerwünsche**   
-In der  Webaplikation lassen die Farben von grafischen Elementen je nach wunsch und Geschmack anpassen.   
+In der  Webaplikation lassen sich die Farben von grafischen Elementen je nach wunsch und Geschmack anpassen.   
 **Kurze Antwortzeiten**   
 Ergebnisse von Anfragen an die Datenbank werden direkt nach dem Empfang der ersten  vom Datenbanksystem zurückgelieferten Tupel dargestellt,  anstatt erst  das gesamte Ergebnis zu sammeln und dann darzustellen.   
 **Reversibilität**   
