@@ -45,14 +45,14 @@
 * Hochschulmitarbeiter *(Name)*
 
 #Function Points
-|Elementarprozess|Anzahl|Komplexität|FP|
-|-|-|-|-|
-|Eingaben|15|6|90|
-|Ausgaben|7|5|35|
-|Abfragen|1|4|4|
-|Datenbestände|7|10|70|
-|Referenzdaten|1|7|7|
-|**SUMME**|||**206**|
+|Elementarprozesse|Anzahl|Komplexität|FP		|
+|-----------------|------|-----------|----------|
+|Eingaben		  |15	 |6			 |90 		|
+|Ausgaben		  |7 	 |5			 |35 		|
+|Abfragen		  |1 	 |4			 |4	 		|
+|Datenbestände	  |7	 |10 		 |70 		|
+|Referenzdaten	  |1 	 |7 		 |7  		|
+|**SUMME**		  |		 |			 |**206**	|
 
 #Aufwandsschätzung
 ##Zeit
