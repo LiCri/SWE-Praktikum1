@@ -18,7 +18,7 @@
     <coordinates>
       <x>160</x>
       <y>30</y>
-      <w>510</w>
+      <w>790</w>
       <h>480</h>
     </coordinates>
     <panel_attributes>Info-Bereich
@@ -195,7 +195,7 @@ halign=left</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>690</x>
+      <x>970</x>
       <y>400</y>
       <w>160</w>
       <h>60</h>
@@ -210,11 +210,11 @@ valign=center</panel_attributes>
     <coordinates>
       <x>570</x>
       <y>410</y>
-      <w>140</w>
+      <w>420</w>
       <h>40</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;400.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
@@ -232,11 +232,11 @@ valign=center</panel_attributes>
     <coordinates>
       <x>650</x>
       <y>70</y>
-      <w>140</w>
+      <w>420</w>
       <h>350</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;120.0;20.0;120.0;330.0</additional_attributes>
+    <additional_attributes>10.0;20.0;400.0;20.0;400.0;330.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -261,5 +261,75 @@ valign=center</panel_attributes>
     <panel_attributes>Tagungsteilnehmer
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>760</x>
+      <y>230</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Übersicht liefern</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>870</x>
+      <y>240</y>
+      <w>200</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>180</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>240</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;30.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>270</y>
+      <w>160</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;80.0;140.0;10.0</additional_attributes>
   </element>
 </diagram>
