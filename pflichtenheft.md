@@ -87,7 +87,7 @@ Es soll ebenso den Verwaltern der Tagungen eine schnelle Übersicht über die an
 
 ![Startseite](./Use-Case-Diagramme/main-page.jpg)
 
-Die Startseite bietet dem Benutzer, je nach Absicht auf die Entsprechende Seite zu wechseln. Dieser Use-Case ist für die implementierung nicht stark von Bewandnis und dient hier nur der verdeutlichung der Benutzer Rollen.
+Die Startseite bietet dem Benutzer, je nach Absicht auf die Entsprechende Seite zu wechseln. Dieser Use-Case ist für die implementierung nicht stark von Bewandnis und dient hier nur der verdeutlichung der Benutzer Rollen und was das erste ist, was der Benutzer sieht.
 
 ![Info-Bereich](./Use-Case-Diagramme/info-Bereich.jpg)
 
@@ -100,7 +100,7 @@ Darüber hinaus kann der Tagungsteilnehmer auch noch zusätzlich spezielle Hinwe
 
 ![Verwaltungsbereich](./Use-Case-Diagramme/Verwaltungsbereich.jpg)
 
-Der Verwaltungsbereich, welcher nur für Hochschulmitarbeiter zugänglich ist, biete eine vielzahl von Möglichkeiten die Datenbank im allgemeinen zu verwalten. 
+Der verwaltungsbereich, welcher nur für Hochschulmitarbeiter zugänglich ist, biete eine vielzahl von Möglichkeiten die Datenbank im allgemeinen zu verwalten. Es wird vorrausgesetzt des der Hochschulmitarbeiter eingeloggt ist und ihm sämtlkche Funktionen zur Verfügung stehen.
 
 ## Benutzerschnittstelle
 
