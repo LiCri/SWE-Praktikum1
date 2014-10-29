@@ -164,15 +164,15 @@ Zur Vorbeugung falscher Daten und einer daraus resultierenden Fehleranfälligkei
 Es gilt, während der Entwicklungsphase klassische Fehlerfälle zu identifizieren und zu testen.
 Clientseitig wird dazu der Debugger des Chrome-Browsers genutzt, für serverseitige Testverfahren wird das Framework PHPunit genutzt.
 
-Bisher definierte Testfälle:
+Bisher definierte Testfälle:   
 
-|Fehlerfall|gewünsche Aktion|Häufigkeit|Relevanz|
-|-|-|-|-|
-|falsche Eingabedaten|Validierung, Fehlermeldung|hoch|hoch|
-|Unterbrechung des Zahlungsvorgangs|Absicherung durch Transaktion|selten|hoch|
-|Ausfall der Datenbank|Fehlermeldung, Wiederholung ermöglichen|selten|mittel|
-|JavaScript deaktiviert|Hinweis, nach Möglichkeit Alternativen|selten|mittel|
-|Belastung des Servers|Hinweis auf späteren Besuch|selten|niedrig|
+|Fehlerfall                         |gewünsche Aktion                         |Häufigkeit |Relevanz |
+|-----------------------------------|-----------------------------------------|-----------|---------|
+|falsche Eingabedaten               |Validierung, Fehlermeldung               |hoch       |hoch     |
+|Unterbrechung des Zahlungsvorgangs |Absicherung durch Transaktion            |selten     |hoch     |
+|Ausfall der Datenbank              |Fehlermeldung, Wiederholung ermöglichen  |selten     |mittel   |
+|JavaScript deaktiviert             |Hinweis, nach Möglichkeit Alternativen   |selten     |mittel   |
+|Belastung des Servers              |Hinweis auf späteren Besuch              |selten     |niedrig  |
 
 ## Entwicklungs-Umgebung
 * Clientseitige Programmierung
