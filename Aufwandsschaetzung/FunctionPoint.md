@@ -60,7 +60,7 @@
 
 ##Berechnung
 Kategorie|Anzahl|Komplexität|Gewichtung|Summe|
-|-|-|-|-|-|
+|--------|------|-----------|----------|-----|
 |**Eingabe**|2|einfach|3|6|
 ||2|mittel|4|8|
 ||2|hoch|6|12|
