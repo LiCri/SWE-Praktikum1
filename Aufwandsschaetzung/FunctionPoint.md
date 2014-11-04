@@ -1,6 +1,4 @@
-\title{Aufwandsschätzung mit der Function-Point-Methode}
 
-\maketitle
 
 #Elementarprozessee
 
