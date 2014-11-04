@@ -33,7 +33,7 @@
 #Function Points
 ##Kategorien
 |Prozess|Datenbestände|Datenfelder|Komplexität|
-|-|-|-|-|
+|-------|-------------|-----------|-----------|
 |**Eingabe**||||
 |Online-Anmeldung|Teilnehmer<br>Hochschulmitarbeiter|2|einfach|
 |Leistung buchen|Teilnehmer<br>Tagungen<br>Tagungseinheiten<br>Buchungen<br>Zahlungen|8|hoch|
